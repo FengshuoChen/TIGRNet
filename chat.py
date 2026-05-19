@@ -18,7 +18,7 @@ def generate_text(support_name, query_name, sample_class):
     query_d = base_image("./VDT-2048-5i/seperated_images/" + query_name.replace('.png', '_d.png'))
 
     client = OpenAI(
-        api_key="sk-3670b1b30584443abc44ee0648ae31b7",
+        api_key="",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
     completion = client.chat.completions.create(
@@ -53,7 +53,7 @@ def generate_text(support_name, query_name, sample_class):
 
 def generate_O(text):
     client = OpenAI(
-        api_key="sk-3670b1b30584443abc44ee0648ae31b7",
+        api_key="",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
     completion = client.chat.completions.create(
@@ -72,7 +72,7 @@ def generate_O(text):
 
 def generate_A(text):
     client = OpenAI(
-        api_key="sk-3670b1b30584443abc44ee0648ae31b7",
+        api_key="",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
     completion = client.chat.completions.create(
@@ -91,7 +91,7 @@ def generate_A(text):
 
 def generate_R(text):
     client = OpenAI(
-        api_key="sk-3670b1b30584443abc44ee0648ae31b7",
+        api_key="",
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
     completion = client.chat.completions.create(
