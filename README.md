@@ -1,4 +1,4 @@
-# TIGRNet
+# Text-Image Guided Retrieval Network for Triple-modal Images Few-Shot Semantic Segmentation
 
 This repository provides the official implementation of **TIGRNet** for triple-modal few-shot semantic segmentation.
 
