@@ -43,15 +43,15 @@ VDT-2048-5i/
     2/
     ...
     20/
-  label_ps/
+  label/
     O_*.txt
     A_*.txt
     R_*.txt
-  text1/
+  text/
     *.txt
 ```
 
-`text1/` stores the VLM-generated semantic descriptions, while `label_ps/` stores the object, attribute, and relation prior text files used by the text-guided branch.
+`text/` stores the VLM-generated semantic descriptions, while `label/` stores the object, attribute, and relation prior text files used by the text-guided branch.
 
 ## Usage
 
